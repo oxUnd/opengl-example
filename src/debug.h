@@ -4,9 +4,9 @@
 #include <iostream>
 
 enum DEBUG_L {
-	INFO = 0,
-	WARN,
-	ERROR
+    INFO = 0,
+    WARN,
+    ERROR
 };
 
 void DEBUG(const char *type, const char *msg, unsigned int level);
